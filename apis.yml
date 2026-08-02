@@ -1,9 +1,30 @@
 aid: thrive-agritech
 name: Thrive Agritech
-description: Thrive Agritech is a company surfaced as a portfolio company of y-combinator and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Thrive Agritech is a horticultural lighting company that designs and
+  manufactures high-efficiency LED grow lights and related power systems for
+  commercial indoor farming, greenhouses, and vertical farming operations. Its
+  product line includes fixtures such as Strata, Boost XE, and a 1050W LED grow
+  light, along with a Remote Power System, backed by lighting design services,
+  rebate assistance, and multi-year warranties. The company positions itself
+  around energy efficiency, ROI, and long-term grower partnerships rather than a
+  developer or API offering. Surfaced as a Y Combinator portfolio company and
+  added to the API Evangelist network, this profile was enriched by probing the
+  public web surface; no public API, developer portal, documentation, or
+  machine-readable specification was found.
 url: https://raw.githubusercontent.com/api-evangelist/thrive-agritech/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.sanity.io/images/fkzf7pm9/production/0182583fc0461179095d0cde68c81bfa9f9a9069-2444x1008.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,12 +33,31 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Agriculture
+- AgTech
+- Indoor Farming
+- Vertical Farming
+- Horticulture
+- LED Lighting
+- Controlled Environment Agriculture
+- Hardware
 apis: []
+common:
+- type: Website
+  url: https://www.thriveagritech.com
+- type: Blog
+  name: Grower's Journal
+  url: https://www.thriveagritech.com/growers-journal
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
